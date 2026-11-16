@@ -1,0 +1,42 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Local-only agent settings
+.claude/settings.local.json
+
+# Secrets and env files
+.env
+.env.*
+!.env.example
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build output and caches
+dist/
+build/
+.cache/
+coverage/
