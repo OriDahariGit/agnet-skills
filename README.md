@@ -5,6 +5,7 @@ A collection of agent skills for Claude Code. Each skill lives in its own folder
 ## Skills
 
 - **init-project-rules**: Scans the current project, interviews the user about it, then creates or updates the project's CLAUDE.md or AGENTS.md with confirmed rules. User-invoked only.
+- **decisions**: Keeps a lightweight strategic and architectural decision log in `docs/decisions/`. Agents read it before non-trivial work and propose new records after significant choices; only the user accepts them.
 
 ## Layout
 
@@ -13,6 +14,12 @@ A collection of agent skills for Claude Code. Each skill lives in its own folder
       init-project-rules/
         SKILL.md
         README.md
+      decisions/
+        SKILL.md
+        README.md
+        templates/
+          decision.md
+          index.md
       <another-skill>/
         SKILL.md
 
